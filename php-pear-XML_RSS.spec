@@ -11,14 +11,18 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
-BuildRequires:	rpm-php-pearprov
 Requires:	php-pear
+BuildRequires:	rpm-php-pearprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Parser for Resource Description Framework (RDF) Site Summary (RSS)
 documents.
+
+%description -l pl
+Parser do dokumentów w formacie RSS (RDF Site Summary, gdzie RDF
+jest skrótem od Resource Description Framework).
 
 %prep
 %setup -q -c
