@@ -2,8 +2,8 @@
 %define         _class          XML
 %define         _subclass       RSS
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - RSS parser
-Summary(pl):	%{_class}_%{_subclass} - parser RSS
+Summary:	%{_pearname} - RSS parser
+Summary(pl):	%{_pearname} - parser RSS
 Name:		php-pear-%{_pearname}
 Version:	0.9.1
 Release:	1
