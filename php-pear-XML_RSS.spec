@@ -1,7 +1,8 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          XML
-%define         _subclass       RSS
+%define		_class		XML
+%define		_subclass	RSS
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - RSS parser
 Summary(pl):	%{_pearname} - parser RSS
 Name:		php-pear-%{_pearname}
