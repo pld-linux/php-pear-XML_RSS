@@ -22,8 +22,8 @@ Parser for Resource Description Framework (RDF) Site Summary (RSS)
 documents.
 
 %description -l pl
-Parser do dokumentów w formacie RSS (RDF Site Summary, gdzie RDF
-jest skrótem od Resource Description Framework).
+Parser do dokumentów w formacie RSS (RDF Site Summary, gdzie RDF jest
+skrótem od Resource Description Framework).
 
 %prep
 %setup -q -c
