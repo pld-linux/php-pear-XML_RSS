@@ -1,19 +1,19 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		XML
 %define		_subclass	RSS
-%define		_status		stable
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - RSS parser
 Summary(pl):	%{_pearname} - parser RSS
 Name:		php-pear-%{_pearname}
-Version:	0.9.2
-Release:	3
+Version:	0.9.9
+Release:	1
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	08651112f90df52f7dd4af70cd058f1e
+# Source0-md5:	a55b9c9f87dff79d7aa4025d6aa599ac
 URL:		http://pear.php.net/package/XML_RSS/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
