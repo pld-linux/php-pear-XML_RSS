@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - RSS parser
-Summary(pl):	%{_pearname} - parser RSS
+Summary(pl.UTF-8):   %{_pearname} - parser RSS
 Name:		php-pear-%{_pearname}
 Version:	0.9.10
 Release:	1
@@ -29,15 +29,15 @@ documents.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Parser do dokumentów w formacie RSS (RDF Site Summary, gdzie RDF jest
-skrótem od Resource Description Framework).
+%description -l pl.UTF-8
+Parser do dokumentÃ³w w formacie RSS (RDF Site Summary, gdzie RDF jest
+skrÃ³tem od Resource Description Framework).
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -46,7 +46,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
