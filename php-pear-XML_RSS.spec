@@ -8,7 +8,7 @@ Summary:	%{_pearname} - RSS parser
 Summary(pl.UTF-8):	%{_pearname} - parser RSS
 Name:		php-pear-%{_pearname}
 Version:	0.9.10
-Release:	1
+Release:	2
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
