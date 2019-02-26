@@ -4,12 +4,12 @@
 Summary:	%{_pearname} - RSS parser
 Summary(pl.UTF-8):	%{_pearname} - parser RSS
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
+Version:	1.1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	09bce549a425b267b2945ba8fb41a413
+# Source0-md5:	6a42b501b76a04c3b68c93f7e6f99504
 URL:		http://pear.php.net/package/XML_RSS/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
